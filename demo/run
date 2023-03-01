@@ -1,0 +1,7 @@
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
+roslaunch obstacle-avoidance-turtlebot naive_obs_avoid.launch
+
+https://potblog.hatenablog.com/entry/2018/05/17/233426
+https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/#slam
+https://emanual.robotis.com/docs/en/platform/turtlebot3/navigation/#perform-navigation
